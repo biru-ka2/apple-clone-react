@@ -1,12 +1,57 @@
-# React + Vite
+# Apple.com Home Page Clone (React + Bootstrap)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A pixel-perfect, responsive recreation of Apple’s home page built with React 18, Vite, Bootstrap 5 and a single custom CSS file.
 
-Currently, two official plugins are available:
+🛠️ Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React 18
+Vite
+Bootstrap 5 (imported once)
+Custom CSS 
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Quick Start
+
+1. Clone the repo     
+   git clone https://github.com/biru-ka2/apple-clone-react.git
+   
+   cd apple-clone-react
+
+2.Install & run
+  npm install
+  npm run dev        # http://localhost:5173
+
+
+📁 Project Structure
+
+apple-clone-react/
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+├── vite.config.js
+├── node_modules/
+├── public/
+│   └── (public assets)
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── styles/
+│   │       ├── bootstrap.css
+│   │       └── styles.css
+│   ├── components/
+│   │   ├── Alert/
+│   │   ├── FifthSection/
+│   │   ├── FirstSection/
+│   │   ├── Footer/
+│   │   ├── FourthSection/
+│   │   ├── Header/
+│   │   ├── SecondSection/
+│   │   ├── SixthSection/
+│   │   └── ThirdSection/
+│   ├── App.jsx
+│   └── main.jsx
+└── (dist/ after build)
